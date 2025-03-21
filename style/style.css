@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+
 body{
     margin: 0;
     padding: 0;
@@ -11,7 +12,6 @@ body{
     box-sizing: border-box;
     /* font-family: "Roboto", sans-serif; */
     font-family: "Montserrat", sans-serif;
-
 }
 
 header{
@@ -102,9 +102,14 @@ nav ul li a {
     color: black;
     font-weight: bold;
     text-decoration: none;
+    border-bottom: 3px solid rgba(0, 0, 0, 0);
+    transition: 0.4s ease;
+}
+nav ul li a:hover{
+    border-bottom: 3px solid black;
 }
 .active {
-    border-bottom: 3Px solid black;
+    border-bottom: 3px solid black;
 }
 
 nav > div > a {
@@ -113,6 +118,11 @@ nav > div > a {
     text-decoration: none;
     font-size: 13px;
     letter-spacing: 1px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0);
+    transition: 0.4s ease;
+}
+nav > div > a:hover {
+    border-bottom: 3px solid black;
 }
 main {
     display: flex;
