@@ -216,8 +216,9 @@ footer section:first-of-type {
     border-bottom: 1px solid rgba(128, 128, 128, 0.2);
 }
 
-footer section div {
-    cursor: pointer;
+footer section div a{
+text-decoration: none;
+color: white;
 }
 
 footer section div div:first-of-type {
